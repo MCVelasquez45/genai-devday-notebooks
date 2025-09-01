@@ -69,3 +69,13 @@ If you use VS Code with the Dev Containers extension:
 
 ## License and Attribution
 These materials are adapted from MongoDB Developer workshops. Refer to the individual workshop pages for additional context and attributions.
+
+## Upstream
+Primary source repository: https://github.com/mongodb-developer/genai-devday-notebooks
+This fork tracks upstream via the `upstream` remote. To sync latest changes:
+```bash
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+```
